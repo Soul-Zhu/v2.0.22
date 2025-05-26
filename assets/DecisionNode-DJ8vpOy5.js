@@ -1,0 +1,3 @@
+import{H as n,a as r}from"./RecordPopup-DKCYEjJ4.js";import"./main-BnXXyOo5.js";import"./useFormEnv-VwQXjqJl.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";class d extends n{setAttributes(){this.width=35,this.height=35,this.text.editable=!1}}class l extends r{shouldUpdate(){return!0}setHtml(e){const s=String(this.currentProperties)||"{}";if(JSON.parse(s),!this.shouldUpdate())return;const t=document.createElement("div"),o=`<div style='text-align:center'>
+   <img src='${new URL(""+new URL("decision-DKLNLCX8.png",import.meta.url).href,import.meta.url)}' />
+  </div>`;t.innerHTML=o,e.innerHTML="",e.appendChild(t)}}const u={type:"DecisionNode",view:l,model:d};export{u as default};

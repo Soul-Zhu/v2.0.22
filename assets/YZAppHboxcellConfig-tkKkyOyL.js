@@ -1,0 +1,1 @@
+var l=Object.defineProperty;var p=(e,t,o)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o;var s=(e,t,o)=>p(e,typeof t!="symbol"?t+"":t,o);import{Y as x}from"./YZAppField-Cjf7z1IA.js";class r extends x{constructor(o){super(o);s(this,"text");const{options:i}=o;this.text=i.text,this.fieldModule="layout"}}export{r as YZAppHboxcellConfig};

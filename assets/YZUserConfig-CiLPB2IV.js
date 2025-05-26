@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var e=(s,o,t)=>o in s?r(s,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):s[o]=t;var p=(s,o,t)=>e(s,typeof o!="symbol"?o+"":o,t);import{YZField as m}from"./YZField-BrGIt1oP.js";import"./main-BnXXyOo5.js";class a extends m{constructor(t){super(t);p(this,"$map");this.$map={};const{options:i}=t;i&&(this.$map=i.$map)}}export{a as YZUserConfig};

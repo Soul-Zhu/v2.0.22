@@ -1,0 +1,1 @@
+import{YZField as e}from"./YZField-BrGIt1oP.js";import"./main-BnXXyOo5.js";class r extends e{constructor(t){super(t);const{options:o}=t;this.bindModel=o.text,this.fieldLabel=o.text}}export{r as YZButtonConfig};

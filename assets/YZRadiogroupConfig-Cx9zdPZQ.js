@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var m=(i,o,t)=>o in i?r(i,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):i[o]=t;var s=(i,o,t)=>m(i,typeof o!="symbol"?o+"":o,t);import{YZField as n}from"./YZField-BrGIt1oP.js";import"./main-BnXXyOo5.js";class u extends n{constructor(t){super(t);s(this,"items");const{options:e}=t;this.items=e.items}}export{u as YZRadiogroupConfig};

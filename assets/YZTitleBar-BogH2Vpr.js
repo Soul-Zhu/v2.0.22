@@ -1,0 +1,1 @@
+import{d as e,a as s,t as a,g as o}from"./main-BnXXyOo5.js";import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";const n={class:"segment-title"},_=e({__name:"YZTitleBar",props:{title:{}},setup(i){return(t,p)=>(o(),s("div",n,a(t.title),1))}}),m=r(_,[["__scopeId","data-v-458a2e8d"]]);export{m as default};

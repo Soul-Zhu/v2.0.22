@@ -1,0 +1,1 @@
+const I=()=>{const o=r=>{r.ItemId&&(r.rowId=r.ItemId,r.rowPId=r.ParentItemId?r.ParentItemId:"$$root");for(const e in r)e!=="activeNames"&&Array.isArray(r[e])&&r[e].forEach((s,n)=>{s.activeNames=[n+1],o(s)});return r};return{buildProcessFormData:o}};export{I as u};

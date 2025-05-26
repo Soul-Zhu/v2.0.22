@@ -1,0 +1,1 @@
+var s=Object.defineProperty;var m=(e,t,o)=>t in e?s(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o;var r=(e,t,o)=>m(e,typeof t!="symbol"?t+"":t,o);import{YZField as n}from"./YZField-BrGIt1oP.js";import"./main-BnXXyOo5.js";class d extends n{constructor(o){super(o);r(this,"formatter");const{options:i}=o;this.formatter=i.type??"Ymd"}}export{d as YZDatetimeConfig};

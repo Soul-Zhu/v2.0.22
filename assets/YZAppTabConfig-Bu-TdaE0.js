@@ -1,0 +1,1 @@
+var p=Object.defineProperty;var l=(e,t,o)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o;var s=(e,t,o)=>l(e,typeof t!="symbol"?t+"":t,o);import{Y as n}from"./YZAppField-Cjf7z1IA.js";class c extends n{constructor(o){super(o);s(this,"text");const{options:i}=o;this.text=i.text,this.fieldModule="layout"}}export{c as YZAppTabConfig};

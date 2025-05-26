@@ -1,0 +1,1 @@
+var i=Object.defineProperty;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e;var s=(o,t,e)=>p(o,typeof t!="symbol"?t+"":t,e);import{Y as c}from"./YZAppField-Cjf7z1IA.js";class x extends c{constructor(e){super(e);s(this,"text");const{options:l}=e;this.fieldModule="layout",this.text=l.text}}export{x as YZAppTablecellConfig};

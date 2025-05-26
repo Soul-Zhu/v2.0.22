@@ -1,0 +1,3 @@
+import{H as d,a as l}from"./RecordPopup-DKCYEjJ4.js";import"./main-BnXXyOo5.js";import"./useFormEnv-VwQXjqJl.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";class n extends d{setAttributes(){this.height=12,this.width=120,this.text.editable=!1}}class p extends l{shouldUpdate(){return!0}setHtml(t){const i=String(this.currentProperties)||"{}",e=JSON.parse(i);if(!this.shouldUpdate())return;const s=document.createElement("div"),r=`<div style='text-align:center'>
+        <p style="font-size: ${e.size};font-family:${e.fontFamily};color:${e.color}">${e.text}</p>
+       </div>`;s.innerHTML=r,t.innerHTML="",t.appendChild(s)}}const x={type:"NodeText",view:p,model:n};export{x as default};

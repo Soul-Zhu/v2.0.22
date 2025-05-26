@@ -1,0 +1,1 @@
+import{m as s,Z as a}from"./main-BnXXyOo5.js";const n=()=>({getFormEnv:()=>{const r=sessionStorage.getItem("env")??"",e=s(a.POST);switch(r){case"post":e.value=a.POST;break;case"process":e.value=a.PROCESS;break;case"inform":e.value=a.NOFITY;break;case"read":e.value=a.READ;break;case"request":e.value=a.REQUEST;break}return e.value}});export{n as u};
